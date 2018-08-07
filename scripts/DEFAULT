@@ -1,0 +1,12 @@
+module.exports = (robot) ->
+    robot.hear /info CLIENT_NAME/i, (res) ->
+        res.emote "Info site SITE_URL\n
+        Dev Owner: \n
+        Repo: \n
+        Server: \n
+        CD: \n
+        Lang: \n
+        CF: \n
+        SSL: \n
+        Server Owner: \n
+        "
